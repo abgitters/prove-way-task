@@ -1,0 +1,116 @@
+.mainDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bundle-save__main-div {
+  width: 340px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.line-div {
+  width: 94px;
+  border: 1px solid #c8c8c8;
+  height: 1px;
+  background-color: #c8c8c8;
+}
+.bundle-save {
+  color: #007f61;
+  font-size: 18.08px;
+  font-weight: 500;
+}
+
+.container {
+  border: 1px solid #c8c8c8;
+  border-radius: 4px;
+  width: 340.73px;
+  padding: 20px;
+  margin-top: 20px;
+}
+.container.active {
+  background-color: #f4fbf9;
+  border: 0.9px solid #007f61;
+}
+.container__div--show {
+  display: flex;
+  align-items: center;
+}
+
+.container__div--hidden-span-size,
+.container__div--hidden-span-colour {
+  font-size: 9.94px;
+  font-weight: 400;
+}
+.container__div--hidden {
+  display: none;
+}
+
+.hidden__size-dropdown,
+.hidden__colour-dropdown {
+  width: 65.98px;
+  height: 25.31px;
+  border: 0.9px solid #d9d9d9;
+  border-radius: 2px;
+}
+.hidden__dropdown-div {
+  margin-top: 8px;
+}
+.innerDiv1 {
+  width: 80%;
+  margin-left: 1%;
+  padding-left: 10px;
+}
+.innerDiv1__span1 {
+  display: block;
+  width: 39px;
+  padding-bottom: 4px;
+}
+.innerDiv1__span2 {
+  width: 85px;
+  font-size: 14.46px;
+  font-weight: 500;
+}
+.innerdiv2 {
+  align-items: center;
+  justify-content: center;
+  margin-left: 1%;
+  width: 19%;
+}
+.total {
+  width: 371.73px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.total__free-2-day-div {
+  color: #007f61;
+  opacity: 60%;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 9px;
+}
+.total__free-total-div {
+  width: 125px;
+  height: 17px;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 9px;
+}
+.btn {
+  width: 341px;
+  height: 48px;
+  background-color: #007f61;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 3px;
+  margin-top: 9px;
+}

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ProveWay Task - Abhishek Gujar</title>
+    <link rel="stylesheet" href="ProveWay.css" />
+  </head>
+  <body>
+    <div class="mainDiv">
+      <div class="form">
+        <!----------------------------------------------Bundle & Save -->
+        <div class="bundle-save__main-div">
+          <div class="line-div"></div>
+          <div class="bundle-save">Bundle & Save</div>
+          <div class="line-div"></div>
+        </div>
+        <!----------------------------------------------Container - 1 -->
+        <div
+          class="container"
+          id="pair-1"
+          for="cont-1"
+          onclick="openDiv(event, 'hidden-div-1')"
+        >
+          <div class="container__div--show">
+            <input type="radio" name="pair" value="pair-1" id="cont-1" />
+            <div class="innerDiv1">
+              <span class="innerDiv1__span1">1 Pair</span>
+              <span class="innerDiv1__span2">DKK 195.00</span>
+              <div
+                class="container__div--hidden"
+                id="hidden-div-1"
+                for="cont-1"
+              >
+                <div>
+                  <span class="container__div--hidden-span-size">Size</span>
+                  <span class="container__div--hidden-span-colour">Colour</span>
+                </div>
+                <div class="hidden__dropdown-div">
+                  <span>#1</span>
+                  <select name="Size" id="size" class="hidden__size-dropdown">
+                    <option value="s">S</option>
+                    <option value="m">M</option>
+                    <option value="l">L</option>
+                    <option value="xl">XL</option>
+                    <option value="xxl">XXL</option>
+                  </select>
+                  <select
+                    name="Colour"
+                    id="colours"
+                    class="hidden__colour-dropdown"
+                  >
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                    <option value="blue">Blue</option>
+                    <option value="gray">Gray</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="innerdiv2">
+              <span>50% Off</span>
+            </div>
+          </div>
+        </div>
+
+        <!----------------------------------------------Container - 2 -->
+        <div
+          class="container"
+          id="defaultOpen"
+          onclick="openDiv(event, 'hidden-div-2')"
+        >
+          <div class="container__div--show">
+            <input
+              type="radio"
+              name="pair"
+              value="pair-2"
+              id="cont-2"
+              checked
+            />
+            <div class="innerDiv1">
+              <span class="innerDiv1__span1">2 Pair</span>
+              <span class="innerDiv1__span2">DKK 345.00</span>
+              <div
+                class="container__div--hidden"
+                id="hidden-div-2"
+                for="cont-2"
+              >
+                <div>
+                  <span class="container__div--hidden-span-size">Size</span>
+                  <span class="container__div--hidden-span-colour">Colour</span>
+                </div>
+                <div class="hidden__dropdown-div">
+                  <span>#1</span>
+                  <select name="Size" id="size" class="hidden__size-dropdown">
+                    <option value="s">S</option>
+                    <option value="m">M</option>
+                    <option value="l">L</option>
+                    <option value="xl">XL</option>
+                    <option value="xxl">XXL</option>
+                  </select>
+                  <select
+                    name="Colour"
+                    id="colours"
+                    class="hidden__colour-dropdown"
+                  >
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                    <option value="blue">Blue</option>
+                    <option value="gray">Gray</option>
+                  </select>
+                </div>
+                <div class="hidden__dropdown-div">
+                  <span>#2</span>
+                  <select name="Size" id="size" class="hidden__size-dropdown">
+                    <option value="s">S</option>
+                    <option value="m">M</option>
+                    <option value="l">L</option>
+                    <option value="xl">XL</option>
+                    <option value="xxl">XXL</option>
+                  </select>
+                  <select
+                    name="Colour"
+                    id="colours"
+                    class="hidden__colour-dropdown"
+                  >
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                    <option value="blue">Blue</option>
+                    <option value="gray">Gray</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="innerdiv2">
+              <span>Most Popular</span>
+              <span>40% Off</span>
+            </div>
+          </div>
+        </div>
+
+        <!----------------------------------------------Container - 3 -->
+        <div
+          class="container"
+          id="pair-3"
+          for="cont-3"
+          onclick="openDiv(event, 'hidden-div-3')"
+        >
+          <div class="container__div--show">
+            <input type="radio" name="pair" value="pair-3" id="cont-3" />
+            <div class="innerDiv1">
+              <span class="innerDiv1__span1">3 Pair</span>
+              <span class="innerDiv1__span2">DKK 528.00</span>
+              <div
+                class="container__div--hidden"
+                id="hidden-div-3"
+                for="cont-3"
+              >
+                <div>
+                  <span class="container__div--hidden-span-size">Size</span>
+                  <span class="container__div--hidden-span-colour">Colour</span>
+                </div>
+                <div class="hidden__dropdown-div">
+                  <span>#1</span>
+                  <select name="Size" id="size" class="hidden__size-dropdown">
+                    <option value="s">S</option>
+                    <option value="m">M</option>
+                    <option value="l">L</option>
+                    <option value="xl">XL</option>
+                    <option value="xxl">XXL</option>
+                  </select>
+                  <select
+                    name="Colour"
+                    id="colours"
+                    class="hidden__colour-dropdown"
+                  >
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                    <option value="blue">Blue</option>
+                    <option value="gray">Gray</option>
+                  </select>
+                </div>
+                <div class="hidden__dropdown-div">
+                  <span>#2</span>
+                  <select name="Size" id="size" class="hidden__size-dropdown">
+                    <option value="s">S</option>
+                    <option value="m">M</option>
+                    <option value="l">L</option>
+                    <option value="xl">XL</option>
+                    <option value="xxl">XXL</option>
+                  </select>
+                  <select
+                    name="Colour"
+                    id="colours"
+                    class="hidden__colour-dropdown"
+                  >
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                    <option value="blue">Blue</option>
+                    <option value="gray">Gray</option>
+                  </select>
+                </div>
+                <div class="hidden__dropdown-div">
+                  <span>#3</span>
+                  <select name="Size" id="size" class="hidden__size-dropdown">
+                    <option value="s">S</option>
+                    <option value="m">M</option>
+                    <option value="l">L</option>
+                    <option value="xl">XL</option>
+                    <option value="xxl">XXL</option>
+                  </select>
+                  <select
+                    name="Colour"
+                    id="colours"
+                    class="hidden__colour-dropdown"
+                  >
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                    <option value="blue">Blue</option>
+                    <option value="gray">Gray</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="innerdiv2">
+              <span>60% Off</span>
+            </div>
+          </div>
+        </div>
+
+        <!--------------------------------------------------------------2 Day Shipping -->
+        <div class="total">
+          <div class="total__free-2-day-div">Free 2 Day Shipping</div>
+          <div class="total__free-total-div">Total : DKK 360.00</div>
+        </div>
+        <button class="btn">+ Add to Cart</button>
+      </div>
+    </div>
+
+    <script>
+      function openDiv(e, divId) {
+        var i, divContent, divLink;
+        divContent = document.getElementsByClassName("container__div--hidden");
+        for (i = 0; i < divContent.length; i++) {
+          divContent[i].style.display = "none";
+        }
+        divLink = document.getElementsByClassName("container");
+        for (i = 0; i < divLink.length; i++) {
+          divLink[i].className = divLink[i].className.replace(" active", "");
+        }
+        document.getElementById(divId).style.display = "block";
+        e.currentTarget.className += " active";
+      }
+      document.getElementById("defaultOpen").click();
+    </script>
+  </body>
+</html>
